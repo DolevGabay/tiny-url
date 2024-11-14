@@ -1,0 +1,16 @@
+<div class="login-wrap">
+  <h2>TinyUrl Maker</h2>
+  
+  <div class="form">
+    <input type="text" #urlInput placeholder="Enter Url" name="un" />
+    <button (click)="shortenUrl(urlInput.value)">Create</button>
+  </div>
+
+  <p *ngIf="shortUrl" style="color: black;">
+    Short URL: 
+    <a [href]="shortUrl" target="_blank" style="color: blue; text-decoration: underline;">
+      {{ shortUrl }}
+    </a>
+  </p>
+  
+</div>

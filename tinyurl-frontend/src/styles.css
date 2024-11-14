@@ -1,0 +1,18 @@
+/* You can add global styles to this file, and also import other style files */
+/* styles.css */
+
+/* Reset and base styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Global background color */
+  html, body {
+    height: 100%;
+    background-color: #2c3e50; /* Set the background color to black */
+    color: #fff; /* Optional: Set the default text color to white for contrast */
+    font-family: Arial, sans-serif;
+  }
+  
